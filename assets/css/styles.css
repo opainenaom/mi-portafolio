@@ -74,35 +74,17 @@ body {
 }
 
 /* Estilos para las secciones */
-.section {
-    padding: 40px 20px; /* Reducción del relleno superior e inferior */
-    background-color: #f8f9fa;
-    margin: 10px 0; /* Reducción del margen superior e inferior */
-}
-
-.section h2 {
-    font-size: 1.8rem; /* Reducción del tamaño de la fuente */
-    margin-bottom: 15px; /* Reducción del margen inferior */
-    color: #007bff;
-}
-
-.section p, .section ul, .section ol {
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
-.section ul, .section ol {
-    margin-left: 20px;
-}
-
-/* Estilos personalizados para el carrusel */
 .carousel-item img {
-    width: 20%;
-    height: 20%;
-    object-fit: cover; /* Asegura que la imagen cubra el área del carrusel */    
+    width: 100%; /* Ajusta al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el área del carrusel */
 }
 
-
+.carousel-inner {
+    width: 100%; /* Ajusta esto si necesitas un tamaño específico */
+    max-width: 450px; /* Tamaño máximo del carrusel, ajusta según tu diseño */
+    margin: auto; /* Centra el carrusel horizontalmente */
+}
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
@@ -114,7 +96,6 @@ body {
     background-color: #007bff; /* Color de los controles */
     border-radius: 50%;
 }
-
 
 /* Estilo para el footer */
 footer {
