@@ -95,6 +95,27 @@ body {
     margin-left: 20px;
 }
 
+/* Estilos personalizados para el carrusel */
+.carousel-item img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover; /* Asegura que la imagen cubra el área del carrusel */    
+}
+
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007bff; /* Color de los controles */
+    border-radius: 50%;
+}
+
+
 /* Estilo para el footer */
 footer {
     background-color: #333;
